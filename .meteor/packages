@@ -17,8 +17,8 @@ es5-shim@4.6.15                # ECMAScript 5 compatibility for older browsers
 ecmascript@0.8.3              # Enable ECMAScript2015+ syntax in app code
 shell-server@0.2.4            # Server-side component of the `meteor shell` command
 
-autopublish@1.0.7             # Publish all data to the clients (for prototyping)
-insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
+                            # Publish all data to the clients (for prototyping)
+               # Allow all DB writes from clients (for prototyping)
 kadira:flow-router
 kadira:blaze-layout
 erasaur:meteor-lodash
@@ -27,14 +27,14 @@ fortawesome:fontawesome
 spiderable
 fastclick
 raix:handlebar-helpers
-aldeed:collection2
 aldeed:autoform
-accounts-ui
-accounts-password
+accounts-ui@1.1.9
+accounts-password@1.4.0
 matb33:bootstrap-glyphicons
-msavin:jetsetter
 zimme:active-route
 gwendall:auth-client-callbacks
 aldeed:autoform-bs-datepicker@2.0.0
 aldeed:autoform-select2
-
+aldeed:collection2-core@2.0.0
+meteortoys:allthings
+datariot:ganalytics
